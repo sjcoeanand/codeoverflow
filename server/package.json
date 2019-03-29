@@ -1,0 +1,38 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "babel": "node ./node_modules/babel-cli/bin/babel.js -sDw src/ -d dist",
+    "start": "node ./dist/bin/www.js"
+  },
+  "author": "anand",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cookie-parser": "^1.4.4",
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "loadash": "^1.0.0",
+    "md5": "^2.2.1",
+    "morgan": "^1.9.1",
+    "mysql2": "^1.6.5",
+    "sequelize": "^4.42.1"
+  },
+  "devDependencies": {
+    "@babel/runtime": "^7.1.5",
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-eslint": "^6.1.1",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "babel-register": "^6.26.0",
+    "eslint": "^3.19.0",
+    "eslint-config-standard": "^5.3.5",
+    "eslint-plugin-babel": "^3.3.0",
+    "eslint-plugin-standard": "^2.3.1"
+  }
+}

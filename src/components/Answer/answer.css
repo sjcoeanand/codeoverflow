@@ -1,0 +1,36 @@
+.questionanswer-detail .questionanswer-detail--wrapper{padding: 20px 0;}
+.questionanswer-detail .questionanswer-detail--wrapper .questionanswer-detail--heading{
+    padding: 10px 0px; border-bottom: 1px solid #adaaaa; margin-bottom: 15px;
+}
+.lang-name { padding: 3px 6px 5px 7px;
+    background-color: #426c97;
+    margin-left: 10px;
+    display: inline-block;
+    line-height: initial;
+    color: #fff;
+    border-radius: 0 8px 8px;
+    font-size: 12px;}
+.questionanswer-detail .questionanswer-detail--wrapper .questionanswer-detail--question-wrapper{padding: 20px;}
+.questionanswer-detail .questionanswer-detail--wrapper .questionanswer-detail--heading h1{font-size: 25px; }
+.questionanswer-detail .questionanswer-detail--wrapper .questionanswer-detail--answer .posted-answer{padding:10px 20px; background-color: #d5dce3; border-left: 2px solid #426c97; margin-bottom: 20px;}
+.questionanswer-detail .questionanswer-detail--wrapper .questionanswer-detail--answer .post-new-answer .inputbox-anstitle input[type="text"]{padding: 5px 10px; }
+.questionanswer-detail .questionanswer-detail--wrapper .questionanswer-detail--answer .post-new-answer textarea{width: 80%; height: 100px; padding: 10px; margin: 10px 0}
+.questionanswer-detail .questionanswer-detail--wrapper .questionanswer-detail--answer .posted-answer--heading {font-size: 24px;font-weight: 500; padding: 10px 0;  border-bottom:1px solid #adaaaa; margin-bottom: 20px;}
+.questionanswer-detail .questionanswer-detail--wrapper .questionanswer-detail--answer {    background-color:#eff1f3; padding: 20px;}
+.questionanswer-detail .questionanswer-detail--wrapper .questionanswer-detail--answer .posted-answer .anstitle{font-weight: 600; text-transform: capitalize; position: relative;}
+.posted-answer .anstitle:before{    
+    content: "";
+    position: absolute;
+    left: -27px;
+    top: 15px;
+    padding: 5px;
+    background-color: #d5dce3;
+    border-bottom: 2px solid #426c97;
+    border-left: 2px solid #426c97;
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);}
+    .ansdesc{font-size: 12px; }
+    .rating{display: flex;}
+    .rating .dislike{margin-left: 20px;}
+    .rating .like .thumb, .rating .dislike .thumb{background-image: url('../../images/thumbs-up.svg'); background-size: 100%; padding: 15px;}
+    .rating .dislike .thumb{transform: rotate(180deg)}

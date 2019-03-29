@@ -1,0 +1,15 @@
+.App{
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.nav-item{margin-right: 10px;}
+.navbar-light .navbar-nav .nav-link{ border : 1px solid #426c97; color: #000}
+.user-name{color: #406995; font-size: 14px; line-height: 1.9; text-transform: capitalize}
+.bg-custom {background-color:#eff1f3;}
+.btn-primary{background-color: #406995; border-color: #406995; border-radius: 0; box-shadow: 2px 2px 2px #6c8cae;}
+.btn-primary:hover, .btn-primary:active ,.btn-primary:not(:disabled):not(.disabled):active, .btn-primary:focus{background-color: #fff; border-color: #406995; color:#406995}
+.user-info{display: flex; justify-content: space-between;font-size: 12px; text-transform: capitalize; color: royalblue}
+.timeStamp{ color: royalblue;}
+.user-info span span{color: #F48024; font-weight: 600}

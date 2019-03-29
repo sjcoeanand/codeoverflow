@@ -1,0 +1,17 @@
+/* register */
+.register{ width: 60%; margin: auto;}
+.register--wrapper{background-color: #ccc; padding: 20px 40px;}
+.register--heading{font-size: 30px; padding: 20px 0;}
+
+/* login */
+
+.login{ width: 60%; margin: auto;}
+.login--wrapper{background-color: #ccc; padding: 20px 40px;}
+.login--heading{font-size: 30px; padding: 20px 0;}
+
+/* vice-versa */
+.vice-versa{ padding: 20px 0;}
+
+
+/* validation error */
+.register .register--wrapper span{font-size: 12px; color: red; }
