@@ -10,7 +10,7 @@ This project is my small foot print towards learning react in last two months to
 
     # Step 1 :
     create database and use following query to create tables and their structure
-  --
+      --
     -- Database: `codeoverflow`
     -- --------------------------------------------------------
     -- Table structure for table `answerdata`
@@ -56,7 +56,7 @@ This project is my small foot print towards learning react in last two months to
       `ucpassword` varchar(100) NOT NULL
     ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
--- -- --------------------------------------------------------
+      -- -- --------------------------------------------------------
     -- Indexes for table `answerdata`
     --
     ALTER TABLE `answerdata`
@@ -87,7 +87,7 @@ This project is my small foot print towards learning react in last two months to
     ALTER TABLE `qnadata`
       MODIFY `qid` int(100) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
 
---
+      --
     -- AUTO_INCREMENT for table `users`
     --
     ALTER TABLE `users`
