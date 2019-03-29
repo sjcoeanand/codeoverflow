@@ -103,17 +103,17 @@ Inside that directory, it will generate the initial project structure and instal
 
 Just clone directory and follow below steps
     steps for app
-      1. 'cd codeoverflow'
-      2. 'npm install' (it will install all packages mentioned inside package.json)
-      3. 'cd server'
-      4. 'npm install' (it will install all packages mentioned inside package.json)
-      5. start xampp server
-      6. again go to 'cd codeoverflow'
-      7. 'npm start' (in terminal 1)
-      8. now go to 'cd server'
-      9. 'npm start' (in terminal 2)
-      10. now again go to 'cd server'
-      11. 'npm run babel' (in terminal 3)
+      'cd codeoverflow'
+      'npm install' (it will install all packages mentioned inside package.json)
+      'cd server'
+      'npm install' (it will install all packages mentioned inside package.json)
+      start xampp server
+      again go to 'cd codeoverflow'
+      'npm start' (in terminal 1)
+      now go to 'cd server'
+      'npm start' (in terminal 2)
+      now again go to 'cd server'
+      'npm run babel' (in terminal 3)
       
       Register new user
       login with user
