@@ -95,13 +95,16 @@ ALTER TABLE `users`
 COMMIT;
 
 =======================================================================================
-Inside that directory, it will generate the initial project structure and install the transitive dependencies:
-
-  codeoverflow (main directory)
-  ├── server (sub directory for backend includes all database coonections + API)
+    Inside that directory, it will generate the initial project structure and install the transitive dependencies:
 
 
-Just clone directory and follow below steps
+    codeoverflow (main directory)
+  
+    ├── server (sub directory for backend includes all database coonections + API)
+
+
+    Just clone directory and follow below steps
+
     steps for app
     
       1.  'cd codeoverflow'
