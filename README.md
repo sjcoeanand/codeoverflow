@@ -2,11 +2,11 @@
 Basic web app like stackoverflow or quora for user questions and answers
 This project is my small foot print towards learning react in last two months to make a web application for users questions, answers, likes, dislikes.
 
-# Framework / local server / Backend used : 
-  React JS for front end
-  Node, Express for Backend
-  Mysql2 for database
-  xampp server
+    # Framework / local server / Backend used : 
+    React JS for front end
+    Node, Express for Backend
+    Mysql2 for database
+    xampp server
 
     # Step 1 :
     create database and use following query to create tables and their structure
