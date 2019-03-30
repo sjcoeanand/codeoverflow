@@ -53,13 +53,13 @@ class Questions extends React.Component {
                   <Link to={`/answer/${item.qid}`}>{item.questions}</Link>
                   <div className="lang-name">{item.langname}</div>
                 </h3>
-                <div className="questionanswer-detail--description">
-                        <p>{item.qstndescription}</p>
-                        <div className="user-info">
-                          <span className="timeStamp">{humanized_time_span(new Date(item.dateTime))}</span>
-                          <span className="posted-by">Posted By : <span>{item.username}</span></span>
-                        </div>
+                <pre className="questionanswer-detail--description">
+                    <p>{item.qstndescription}</p>
+                    <div className="user-info">
+                      <span className="timeStamp">{humanized_time_span(new Date(item.dateTime))}</span>
+                      <span className="posted-by">Posted By : <span>{item.username}</span></span>
                     </div>
+                </pre>
               </div>)
             }       
           </div>
