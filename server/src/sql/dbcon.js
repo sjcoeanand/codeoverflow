@@ -13,7 +13,7 @@ const db = {}
 db.sequelize = sequelize
 db.Sequelize = Sequelize
 
-db.sql = async function sql(query) {
+db.sql = async function sql(query) { 
   const _query = query instanceof Array ? query[0] : query
   const instance = await db.sequelize.query(_query)
   return _.get(JSON.parse(JSON.stringify(instance)), '[0]')
