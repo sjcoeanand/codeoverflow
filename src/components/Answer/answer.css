@@ -12,11 +12,11 @@
     font-size: 12px;}
 .questionanswer-detail .questionanswer-detail--wrapper .questionanswer-detail--question-wrapper{padding: 20px;}
 .questionanswer-detail .questionanswer-detail--wrapper .questionanswer-detail--heading h1{font-size: 25px; }
-.questionanswer-detail .questionanswer-detail--wrapper .questionanswer-detail--answer .posted-answer{padding:10px 20px; background-color: #d5dce3; border-left: 2px solid #426c97; margin-bottom: 20px;}
+.questionanswer-detail .questionanswer-detail--wrapper .questionanswer-detail--answer .posted-answer{padding:10px 20px; background-color: #eff1f3; border-left: 2px solid #426c97; margin-bottom: 20px;}
 .questionanswer-detail .questionanswer-detail--wrapper .questionanswer-detail--answer .post-new-answer .inputbox-anstitle input[type="text"]{padding: 5px 10px; }
 .questionanswer-detail .questionanswer-detail--wrapper .questionanswer-detail--answer .post-new-answer textarea{width: 80%; height: 100px; padding: 10px; margin: 10px 0}
 .questionanswer-detail .questionanswer-detail--wrapper .questionanswer-detail--answer .posted-answer--heading {font-size: 24px;font-weight: 500; padding: 10px 0;  border-bottom:1px solid #adaaaa; margin-bottom: 20px;}
-.questionanswer-detail .questionanswer-detail--wrapper .questionanswer-detail--answer {    background-color:#eff1f3; padding: 20px;}
+.questionanswer-detail .questionanswer-detail--wrapper .questionanswer-detail--answer {    background-color:#d5dce3; padding: 20px;}
 .questionanswer-detail .questionanswer-detail--wrapper .questionanswer-detail--answer .posted-answer .anstitle{font-weight: 600; text-transform: capitalize; position: relative;}
 .posted-answer .anstitle:before{    
     content: "";
