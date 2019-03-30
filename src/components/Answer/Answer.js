@@ -136,12 +136,12 @@ class Answer extends React.Component{
                         { answers && answers
                             .map((item, index) => (
                                 <div className="posted-answer" key={index} >
-                                    <div className="anstitle">
+                                    <pre className="anstitle">
                                         {item.anstitle}
-                                    </div>
-                                    <div className="ansdesc">
+                                    </pre>
+                                    <pre className="ansdesc">
                                         {item.ansdesc}
-                                    </div>
+                                    </pre>
                                     <div className="user-info">
                                     <span className="timeStamp">answered : {humanized_time_span(new Date(item.dateTime))}</span>
                                     <span className="posted-by">Answered By : <span>{item.username}</span></span>
