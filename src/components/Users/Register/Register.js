@@ -5,7 +5,7 @@ import '../user.css';
 // import ImageUploader from 'react-images-upload';
 import axios from 'axios';
 
-const url = "http://localhost:5001";
+const url = "https://anandshendage.com:2083";
 
 
 class Register extends React.Component {

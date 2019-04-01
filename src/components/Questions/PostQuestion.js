@@ -5,7 +5,7 @@ import { Redirect } from 'react-router-dom';
 import axios from 'axios';
 import { isAuthenticated } from '../.././Helpers';
 
-const url = "http://localhost:5001";
+const url = "https://anandshendage.com:2083";
 
 class PostQuestion extends React.Component {
     constructor(){
