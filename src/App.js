@@ -34,7 +34,7 @@ class App extends React.Component {
               </Container>
               <Footer/>
         </div>
-     </ Router>
+    </ Router>
     );
   }
 }

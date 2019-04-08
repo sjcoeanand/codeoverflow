@@ -5,7 +5,7 @@ import { isAuthenticated } from '../.././../Helpers';
 import '../user.css';
 import axios from 'axios';
 
-const url = "https://anandshendage.com:2083";
+const url = "http://localhost:5001";
 
 
 class Login extends React.Component {

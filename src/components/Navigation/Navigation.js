@@ -1,7 +1,6 @@
 import React from 'react';
 import { NavLink, Redirect  } from 'react-router-dom';
 import { Container } from 'reactstrap';
-// import 'bootstrap/dist/css/bootstrap.css';
 
 class Navigation extends React.Component {
     constructor(){

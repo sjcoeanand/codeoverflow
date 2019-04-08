@@ -4,7 +4,7 @@ import './questions.css';
 import axios from 'axios';
 import {humanized_time_span} from '../../Helpers';
 
-const url = "https://anandshendage.com:2083";
+const url = "http://localhost:5001";
 
 
 class Questions extends React.Component {

@@ -5,7 +5,7 @@ import { Redirect } from 'react-router-dom';
 import './answer.css';
 import PostAnswer from './PostAnswer';
 
-const url = "https://anandshendage.com:2083";
+const url = "http://localhost:5001";
 
 class Answer extends React.Component{
     
@@ -133,8 +133,8 @@ class Answer extends React.Component{
                     </div>
                     <div className="questionanswer-detail--answer">
                         <div className="posted-answer--heading">Answers</div>
-                        { answers && answers
-                            .map((item, index) => (
+                        { 
+                            this.state.map((item, index) => (
                                 <div className="posted-answer" key={index} >
                                     <pre className="anstitle">
                                         {item.anstitle}
