@@ -16,6 +16,7 @@
     "react-scripts": "^2.1.8",
     "reactstrap": "^7.1.0",
     "search-suggestion": "^1.0.3",
+    "sequelize": "^5.3.5",
     "superagent": "^4.1.0"
   },
   "scripts": {
