@@ -113,7 +113,7 @@ class Answer extends React.Component{
         
         // console.log('============>>>>>>>>>>>', this.state.answers)
         const isAuth = isAuthenticated();
-        const { question, answers, currentAnswers: { anstitle, ansdesc}} = this.state;
+        const { question, currentAnswers: { anstitle, ansdesc}} = this.state;
         const referer = this.props.location.pathname;
         return(
             this.state.redirectToLogin ? <Redirect to={{pathname : '/login', state: {referer}}} /> :
@@ -134,7 +134,7 @@ class Answer extends React.Component{
                     <div className="questionanswer-detail--answer">
                         <div className="posted-answer--heading">Answers</div>
                         { 
-                            this.state.map((item, index) => (
+                            this.state.answers.map((item, index) => (
                                 <div className="posted-answer" key={index} >
                                     <pre className="anstitle">
                                         {item.anstitle}
