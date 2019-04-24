@@ -5,7 +5,7 @@ import * as _ from 'lodash'
 
 // const pswd = 08320047;
 
-const sequelize = new Sequelize("codeoverflow", "root", '08320047', {
+const sequelize = new Sequelize("codeoverflow", "root", "root", {
   dialect: 'mysql',
   operatorsAliases: false
 });
