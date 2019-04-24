@@ -3,9 +3,9 @@ import Sequelize from 'sequelize'
 const env = process.env.NODE_ENV || 'development'
 import * as _ from 'lodash'
 
-const pswd = 08320047;
+// const pswd = 08320047;
 
-const sequelize = new Sequelize("codeoverflow", "root", pswd, {
+const sequelize = new Sequelize("codeoverflow", "root", 08320047, {
   dialect: 'mysql',
   operatorsAliases: false
 });
