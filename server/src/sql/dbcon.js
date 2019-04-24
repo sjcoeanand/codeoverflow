@@ -10,6 +10,15 @@ const sequelize = new Sequelize("codeoverflow", "root", pswd, {
   operatorsAliases: false
 });
 
+sequelize
+  .authenticate()
+  .then(() => {
+    console.log('**DB Connection has been established successfully.');
+  })
+  .catch(err => {
+    console.error('**Unable to connect to the database:', err);
+  });
+
 const db = {}
 
 db.sequelize = sequelize
