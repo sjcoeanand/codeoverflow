@@ -5,7 +5,7 @@ import { Redirect } from 'react-router-dom';
 import './answer.css';
 import PostAnswer from './PostAnswer';
 
-const url = "http://localhost:5001";
+const url = "http://157.230.5.205:5001";
 
 class Answer extends React.Component{
     
