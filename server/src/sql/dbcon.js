@@ -1,11 +1,9 @@
-import path from 'path'
-import Sequelize from 'sequelize'
-const env = process.env.NODE_ENV || 'development'
-import * as _ from 'lodash'
+import path from 'path';
+import Sequelize from 'sequelize';
+const env = process.env.NODE_ENV || 'development';
+import * as _ from 'lodash';
 
-// const pswd = 08320047;
-
-const sequelize = new Sequelize("codeoverflow", "root","", {
+const sequelize = new Sequelize("codeoverflow", "root","admin@123", {
   dialect: 'mysql',
   operatorsAliases: false
 });
